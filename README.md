@@ -45,3 +45,9 @@ docker build --rm -t platformatic/precompile-ts-bug:latest .
 ```
 docker run -it --rm  platformatic/precompile-ts-bug
 ```
+
+## Debug
+
+```
+docker run -it --rm platformatic/precompile-ts-bug /bin/sh
+```
